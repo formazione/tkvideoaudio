@@ -1,3 +1,11 @@
+<h1>My changes to the original code</h1>
+
+I added a way to listen to audio.
+First time you run the example.py (or your script), it will create an mp3 (it needs ffmpe installed).
+Then it will play the mp3 with the audio togheter with the video using pygame (you have to pip install pygame).
+Tha's all. See ya.
+
+
 <h1><strong>NOTE: This repository is archived as I'm no longer able to work on this project. Thanks to everyone who contributed to this.</strong></h1>
 <hr></hr>
 <p align="center">
@@ -66,7 +74,7 @@ pip install tkvideo
 ### Developers and contributors
  * Clone the repo and install the module in developer mode
 ```sh
-git clone https://github.com/huskeee/tkvideo.git
+git clone https://github.com/formazione/tkvideoaudio.git
 python ./tkvideo/setup.py develop
 ```
 or
