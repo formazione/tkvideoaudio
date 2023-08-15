@@ -23,7 +23,7 @@ setup(name = 'tkvideoaudio',
       install_requires = [
           'imageio',
           'imageio-ffmpeg',
-          'pillow'
+          'pillow',
           'pygame'
       ],
       include_package_data = True,
