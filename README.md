@@ -66,7 +66,7 @@ git clone https://github.com/huskeee/tkvideo.git
 python ./tkvideo/setup.py
 ```
 or
- * Install the package from PyPI
+ * Install the package from PyPI (tkvideoaudio is not on PyPI)
 ```sh
 pip install tkvideo
 ```
@@ -75,10 +75,10 @@ pip install tkvideo
  * Clone the repo and install the module in developer mode
 ```sh
 git clone https://github.com/formazione/tkvideoaudio.git
-python ./tkvideo/setup.py develop
+python ./tkvideoaudio/setup.py develop
 ```
 or
- * Install the package from PyPI in editable mode
+ * Install the package from PyPI in editable mode (tkvideoaudio is not on PyPI)
 ```sh
 pip install -e tkvideo
 ```
