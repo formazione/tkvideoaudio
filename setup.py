@@ -24,7 +24,7 @@ setup(name = 'tkvideoaudio',
           'imageio',
           'imageio-ffmpeg',
           'pillow',
-          'pygame'
+          'pygame-ce'
       ],
       include_package_data = True,
       zip_safe = False
