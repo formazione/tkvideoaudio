@@ -4,6 +4,35 @@ I added a way to listen to audio.
 First time you run the example.py (or your script), it will create an mp3 (it needs ffmpe installed).
 Then it will play the mp3 with the audio togheter with the video using pygame (you have to pip install pygame).
 Tha's all. See ya.
+To install tkvideoaudio (not tkvideo) write this:
+
+pip install tkvideoaudio@git+https://github.com/formazione/tkvideoaudio
+
+Then use the same example:
+```py
+''' to install tkvideoaudio 
+pip install tkvideoaudio@git+https://github.com/formazione/tkvideoaudio
+'''
+
+import tkinter as tk
+from tkvideoaudio import tkvideo
+import pygame
+
+
+root = tk.Tk()
+root.title("video play")
+label_video=tk.Label(root)
+label_video.pack()
+video_file=tkvideo("001.mp4",label_video,loop=1,size=(800,600))
+video_file.play()
+root.mainloop()
+pygame.quit()
+```
+
+Change the name of the video as the name of your video, add a path if it is not in the folder
+where you are working. The first time it will get the audio from the video and play it along.
+The following times there will be no need to get the audio again. To get the audio it needs
+ffmp, so install it, it's free and very useful to elaborate audio, video, convert formats etc.
 
 
 <h1><strong>NOTE: This repository is archived as I'm no longer able to work on this project. Thanks to everyone who contributed to this.</strong></h1>
