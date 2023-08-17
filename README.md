@@ -1,7 +1,7 @@
 <h1>My changes to the original code</h1>
 
 I added a way to listen to audio.
-First time you run the example.py (or your script), it will create an mp3 (it needs ffmpe installed).
+First time you run the example.py (or your script), it will create an mp3 (it needs ffmpeg installed).
 Then it will play the mp3 with the audio togheter with the video using pygame (you have to pip install pygame).
 Tha's all. See ya.
 To install tkvideoaudio (not tkvideo) write this:
